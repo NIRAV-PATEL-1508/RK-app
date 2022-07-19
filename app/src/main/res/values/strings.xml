@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RKU</string>
+    <string name="sptext">Version 1.0</string>
+    <string name="hbt">School of Engineering</string>
+    <string name="sbtn">Contact Us</string>
+    <string name="ibtn">btn</string>
+    <string name="ctxt">Developed by : Nirav Patel</string>
+    <string name="soet1">School of Engineering is one of the best degree engineering colleges in Gujarat state. School of Engineering is AICTE approved and located in a 40 acre of lush-green campus on Rajkot-Bhavnagar highway at Rajkot, Gujarat.</string>
+    <string name="soet2">Earlier known as RK College of Engineering and Technology, the school envisage a world-class education system that assures quality and empowers the students to be the global leaders of tomorrow. The school strives to bring excellence in the teaching-learning process through continuous evaluation and training in educational pedagogy.</string>
+    <string name="htitle">Welcome to RKU</string>
+    <string name="hdes">We believe that RKU is a place where “Change” happens. Our students are challenged and motivated to change their perspectives by our faculties. Our faculties constantly change their pedagogies and instructional approaches to match industry requirements and student needs. Our students go on to change the society with the knowledge they have acquired at RKU.</string>
+    <string name="hvision">VISION To be a leading educational organization imparting holistic education to help students become responsible world citizens who are sensitive to the needs of the society.</string>
+    <string name="hmission">MISSION To develop a community of students and academicians who are a part of world class education system which is developed in a manner which supports the intellectual, professional and moral growth of the students leading to advancement of human knowledge through enterprising research.</string>
+</resources>

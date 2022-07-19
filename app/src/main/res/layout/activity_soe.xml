@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".soe">
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:id="@+id/ll1"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/it"
+            android:layout_weight="1"
+            android:id="@+id/it"/>
+        <ImageView
+            android:id="@+id/ee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ee"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:id="@+id/ll2"
+        android:layout_below="@+id/ll1"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ce"
+            android:layout_weight="1"
+            android:id="@+id/ce"/>
+        <ImageView
+            android:id="@+id/me"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/me"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/soet1"
+        android:id="@+id/soet1"
+        android:layout_below="@id/ll2"
+        android:layout_marginTop="5sp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/soet2"
+        android:textColor="@color/black"
+        android:text="@string/soet2"
+        android:layout_below="@+id/soet1"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"/>
+
+    <Button
+        android:id="@+id/soebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="25sp"
+        android:layout_centerHorizontal="true"
+
+        android:backgroundTint="@color/marron"
+        android:text="@string/sbtn" />
+
+
+</RelativeLayout>
