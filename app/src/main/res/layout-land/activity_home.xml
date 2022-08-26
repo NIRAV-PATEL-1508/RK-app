@@ -5,7 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".home">
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
     <ImageView
         android:id="@+id/himage"
@@ -24,8 +30,8 @@
         android:layout_marginStart="5dp"
         android:layout_marginEnd="5dp"
         android:layout_marginTop="5dp"
-        android:text="@string/hdes"
         android:textSize="15sp"
+        android:text="@string/hdes"
         android:textColor="@color/black" />
 
     <TextView
@@ -35,9 +41,9 @@
         android:layout_below="@id/des"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="15dp"
-        android:layout_marginTop="8dp"
-        android:textSize="15sp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="15dp"
+        android:textSize="15sp"
         android:text="@string/hvision"
         android:textColor="@color/black" />
 
@@ -49,7 +55,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="15dp"
         android:textSize="15sp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="15dp"
         android:text="@string/hmission"
         android:textColor="@color/black" />
@@ -58,9 +64,11 @@
         android:id="@+id/btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
         android:layout_marginBottom="25sp"
+        android:layout_below="@+id/mission"
         android:backgroundTint="@color/marron"
         android:text="@string/hbt" />
+</RelativeLayout>
+</ScrollView>
 </RelativeLayout>

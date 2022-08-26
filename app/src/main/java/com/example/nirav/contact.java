@@ -7,6 +7,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.Toolbar;
 
@@ -17,6 +18,7 @@ public class contact extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 //        getSupportActionBar().hide();
         setContentView(R.layout.activity_contact);
         getSupportActionBar().setTitle("Contact us");
@@ -35,7 +37,7 @@ public class contact extends AppCompatActivity {
             public void onClick(View v) {
             String rku ="https://rku.ac.in/";
                 Intent web = new Intent(Intent.ACTION_VIEW);
-web.setData(Uri.parse(rku));
+            web.setData(Uri.parse(rku));
 startActivity(web);
             }
         });
@@ -44,9 +46,11 @@ startActivity(web);
             public void onClick(View v) {
 
                 Intent mail = new Intent(Intent.ACTION_SEND);
-mail.setData(Uri.parse("mailto:kpatel046@rku.ac.in"));
-                mail.setType("plzin/text");
-                startActivity(mail);
+                mail.setType("plain/text");
+                mail.putExtra(Intent.EXTRA_EMAIL,new String[]{"npatel046@rku.ac.in"});
+                mail.putExtra(Intent.EXTRA_SUBJECT,"contact");
+                mail.putExtra(Intent.EXTRA_TEXT,"Hello");
+                startActivity(Intent.createChooser(mail,""));
 
             }
         });

@@ -6,7 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".contact">
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
     <LinearLayout
         android:id="@+id/ll1"
         android:layout_width="match_parent"
@@ -38,14 +44,14 @@
     </LinearLayout>
 
     <LinearLayout
+        android:id="@+id/ll2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:weightSum="3"
-        android:orientation="horizontal"
-        android:id="@+id/ll2"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp">
-
+        android:layout_marginBottom="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/ll1"
+        android:weightSum="3">
 
 
         <ImageButton
@@ -53,33 +59,35 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/web"
             android:background="@android:color/transparent"
+            android:contentDescription="@string/ibtn"
 
-            android:contentDescription="@string/ibtn"/>
+            app:srcCompat="@drawable/web" />
 
         <ImageButton
             android:id="@+id/mail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/mail"
             android:background="@android:color/transparent"
+            android:contentDescription="@string/ibtn"
 
-            android:contentDescription="@string/ibtn"/>
+            app:srcCompat="@drawable/mail" />
+
         <ImageButton
             android:id="@+id/call"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            app:srcCompat="@drawable/call"
             android:background="@android:color/transparent"
-            android:contentDescription="@string/ibtn"/>
+            android:contentDescription="@string/ibtn"
+            app:srcCompat="@drawable/call" />
 
 
     </LinearLayout>
 
-
+    </RelativeLayout>
+</ScrollView>
 
 
 </RelativeLayout>

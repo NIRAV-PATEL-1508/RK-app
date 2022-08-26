@@ -10,4 +10,9 @@
     <color name="grey">#8A8383</color>
     <color name="marron">#A54646</color>
     <color name="blue">#14749A</color>
+          <color name="bg">#96D4DA</color>
+        <color name="red">#FF0000</color>
+        <color name="bg2">#FF5722</color>
+        <color name="bg1">#F7FF00</color>
+        <color name="acb">#3F51B5</color>
 </resources>

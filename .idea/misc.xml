@@ -6,13 +6,17 @@
         <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/drawable/ic_baseline_arrow_back_24.xml" value="0.187" />
         <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/drawable/language_48px.xml" value="0.187" />
         <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/drawable/np.xml" value="0.187" />
-        <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/layout/activity_contact.xml" value="0.25416666666666665" />
-        <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/layout-land/activity_contact.xml" value="0.43963963963963965" />
+        <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/layout-land/activity_home.xml" value="0.18854166666666666" />
+        <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/layout-land/activity_soe.xml" value="0.2" />
+        <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/layout/activity_contact.xml" value="0.20863616930312098" />
+        <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/layout/activity_home.xml" value="0.20863616930312098" />
         <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/layout/activity_main_home.xml" value="0.25416666666666665" />
         <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/layout/activity_my_splash.xml" value="0.152" />
         <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/layout/activity_navbar.xml" value="0.25416666666666665" />
         <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/layout/activity_soe.xml" value="0.25416666666666665" />
+        <entry key="..\:/5TH_SEM/Android/Nirav/app/src/main/res/layout/toolbar.xml" value="0.253125" />
       </map>
     </option>
   </component>

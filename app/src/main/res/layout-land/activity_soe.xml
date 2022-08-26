@@ -6,7 +6,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".soe">
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
 
 
@@ -16,8 +22,9 @@
         android:weightSum="2"
         android:orientation="horizontal"
         android:id="@+id/ll1"
+
         >
-        <ImageButton
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/it"
@@ -53,15 +60,19 @@
     </LinearLayout>
 
 
+
+
+
     <TextView
-        android:id="@+id/soet1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/ll2"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="5sp"
         android:text="@string/soet1"
-        android:textColor="@color/black" />
+        android:id="@+id/soet1"
+        android:layout_below="@id/ll2"
+        android:layout_marginTop="5sp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -77,12 +88,14 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_centerInParent="true"
+       android:layout_below="@+id/soet2"
         android:layout_marginBottom="25sp"
         android:layout_centerHorizontal="true"
 
         android:backgroundTint="@color/marron"
         android:text="@string/sbtn" />
+    </RelativeLayout>
+</ScrollView>
 
 
 </RelativeLayout>
